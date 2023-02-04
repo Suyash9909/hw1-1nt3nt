@@ -67,7 +67,7 @@ def list_1D():
     l.sort()
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
 
-    new_l = l[4:11]
+    new_l = l[4:10]
 
     return hoboken,hoboken_list, hoboken_first_item, l, new_l
 
@@ -83,7 +83,7 @@ def list_2D():
 
     # Collect the items in the last column of matrix A using list comprehension and assign it to a new variable last_column.
 
-    last_column = A[-1]
+    last_column = A[:][-1]
 
     # Get the item at the last row and last column of A.
 
